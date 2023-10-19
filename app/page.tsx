@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import  React  from 'react'
 
 export default function Home() {
-  const id = 0;
+  //const id = 0;
   const [pokemons, setPokemons] = useState<any[]>([]);
   const [newPokemon, setNewPokemon] = useState('');
 
